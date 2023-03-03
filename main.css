@@ -167,6 +167,7 @@ h2{
 }
 .bottom p{
     color: rgb(71, 71, 71);
+    text-align: center;
 }
 .start-exploring{
     width: 40%;
@@ -189,6 +190,15 @@ h2{
     color: rgb(247, 247, 247);
     top: 7px;
     margin-left: 3%;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 300px;
+    }
+    .container-2{
+        width: 300px;
+    }
 }
 
 
