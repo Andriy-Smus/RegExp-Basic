@@ -147,6 +147,7 @@ f1.terms.onclick = function(){
         if(emailRegExp1.test(f1.email.value) || emailRegExp2.test(f1.email.value) || emailRegExp3.test(f1.email.value) || emailRegExp4.test(f1.email.value)) f1.sign.disabled = false;
         else f1.sign.disabled = true;
     } 
+    if(f1.terms.checked == false) f1.sign.disabled = true;
 }
 f1.sign.onclick = function(){
     document.querySelector('.container-2').style.display = 'block';
